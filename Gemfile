@@ -21,6 +21,8 @@ gem 'uglifier', '3.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Use bcrypt for password digest
+gem 'bcrypt', '3.1.12'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.2'
