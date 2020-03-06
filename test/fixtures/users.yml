@@ -9,3 +9,20 @@ kit:
   name: Kit Example
   email: kit@example.com
   password_digest: <%= User.digest('password') %>
+  
+jim:
+  name: Jim Example
+  email: jim@example.com
+  password_digest: <%= User.digest('password') %>
+  
+cat:
+  name: Cat Example
+  email: cat@example.com
+  password_digest: <%= User.digest('password') %>
+  
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>

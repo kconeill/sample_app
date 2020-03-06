@@ -24,6 +24,12 @@ gem 'uglifier', '3.2.0'
 # Use bcrypt for password digest
 gem 'bcrypt', '3.1.12'
 
+# Use Faker to populate database
+gem 'faker', '1.7.3'
+# Use will_paginate for pagination
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.2'
 
